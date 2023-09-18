@@ -1,6 +1,6 @@
 -target:library
--out:"Library/Bee/artifacts/1300b0aE.dag/Unity.Mathematics.Editor.dll"
--refout:"Library/Bee/artifacts/1300b0aE.dag/Unity.Mathematics.Editor.ref.dll"
+-out:"Library/Bee/artifacts/1300b0aE.dag/Unity.Multiplayer.Tools.NetStatsMonitor.Editor.dll"
+-refout:"Library/Bee/artifacts/1300b0aE.dag/Unity.Multiplayer.Tools.NetStatsMonitor.Editor.ref.dll"
 -define:UNITY_2021_3_23
 -define:UNITY_2021_3
 -define:UNITY_2021
@@ -348,17 +348,26 @@
 -r:"C:/Users/FERHAT/Documents/GitHub/Multiplayer_VR_NetCode/Multiplayer_VR_NetCode/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"C:/Users/FERHAT/Documents/GitHub/Multiplayer_VR_NetCode/Multiplayer_VR_NetCode/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"C:/Users/FERHAT/Documents/GitHub/Multiplayer_VR_NetCode/Multiplayer_VR_NetCode/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
--r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Mathematics.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Multiplayer.Tools.Common.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Multiplayer.Tools.NetStats.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Multiplayer.Tools.NetStatsMonitor.Component.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics.Editor/MatrixDrawer.cs"
-"Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics.Editor/PostNormalizedVectorDrawer.cs"
-"Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics.Editor/PrimitiveVectorDrawer.cs"
-"Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics.Editor/QuaternionDrawer.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.1/NetStatsMonitor/Editor/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.1/NetStatsMonitor/Editor/Inspector/CounterConfigurationDrawer.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.1/NetStatsMonitor/Editor/Inspector/CustomTestDataGeneratorEditor.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.1/NetStatsMonitor/Editor/Inspector/DisplayElementConfigurationDrawer.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.1/NetStatsMonitor/Editor/Inspector/GraphConfigurationDrawer.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.1/NetStatsMonitor/Editor/Inspector/MetricIdPropertyDrawer.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.1/NetStatsMonitor/Editor/Inspector/NetStatsMonitorConfigurationEditor.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.1/NetStatsMonitor/Editor/Inspector/PositionConfigurationDrawer.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.1/NetStatsMonitor/Editor/Inspector/RuntimeNetStatsMonitorEditor.cs"
+"Library/PackageCache/com.unity.multiplayer.tools@1.1.1/NetStatsMonitor/Editor/Inspector/Util/CustomInspectorUtils.cs"
 -langversion:9.0
-/unsafe+
+
 /deterministic
 /optimize+
 /debug:portable
@@ -373,4 +382,4 @@
 /preferreduilang:en-US
 -warn:0
 
-/additionalfile:"Library/Bee/artifacts/1300b0aE.dag/Unity.Mathematics.Editor.AdditionalFile.txt"
+/additionalfile:"Library/Bee/artifacts/1300b0aE.dag/Unity.Multiplayer.Tools.NetStatsMonitor.Editor.AdditionalFile.txt"
