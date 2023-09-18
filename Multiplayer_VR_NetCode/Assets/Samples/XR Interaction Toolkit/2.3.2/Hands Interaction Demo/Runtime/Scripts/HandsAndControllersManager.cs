@@ -18,7 +18,7 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.Hands
     /// </remarks>
     public class HandsAndControllersManager : MonoBehaviour
     {
-        enum Mode
+        public enum Mode
         {
             None,
             MotionController,
@@ -28,20 +28,20 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.Hands
         [Header("Hand Tracking")]
         [SerializeField]
         [Tooltip("GameObject representing the left hand group of interactors. Will toggle on when using hand tracking and off when using motion controllers.")]
-        GameObject m_LeftHand;
+        public GameObject m_LeftHand;
 
         [SerializeField]
         [Tooltip("GameObject representing the right hand group of interactors. Will toggle on when using hand tracking and off when using motion controllers.")]
-        GameObject m_RightHand;
+        public GameObject m_RightHand;
 
         [Header("Motion Controllers")]
         [SerializeField]
         [Tooltip("GameObject representing the left motion controller group of interactors. Will toggle on when using motion controllers and off when using hand tracking.")]
-        GameObject m_LeftController;
+        public GameObject m_LeftController;
 
         [SerializeField]
         [Tooltip("GameObject representing the left motion controller group of interactors. Will toggle on when using motion controllers and off when using hand tracking.")]
-        GameObject m_RightController;
+        public GameObject m_RightController;
 
 #if XR_HANDS
         XRHandSubsystem m_HandSubsystem;
@@ -62,8 +62,8 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.Hands
         /// </summary>
         readonly HashSet<int> m_DevicesEverTracked = new HashSet<int>();
 
-        Mode m_LeftMode;
-        Mode m_RightMode;
+        public Mode m_LeftMode;
+        public Mode m_RightMode;
 
         /// <summary>
         /// See <see cref="MonoBehaviour"/>.
