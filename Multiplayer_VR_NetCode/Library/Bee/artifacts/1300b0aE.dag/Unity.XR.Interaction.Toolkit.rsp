@@ -122,6 +122,7 @@
 -define:INPUT_SYSTEM_1_1_OR_NEWER
 -define:ANIMATION_MODULE_PRESENT
 -define:PHYSICS2D_MODULE_PRESENT
+-define:BURST_PRESENT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity 2021.3.23f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
@@ -330,15 +331,24 @@
 -r:"C:/Program Files/Unity 2021.3.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
 -r:"C:/Program Files/Unity 2021.3.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
 -r:"C:/Program Files/Unity 2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"C:/Users/FERHAT/Documents/GitHub/Multiplayer_VR_NetCode/Multiplayer_VR_NetCode/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+-r:"C:/Users/FERHAT/Documents/GitHub/Multiplayer_VR_NetCode/Multiplayer_VR_NetCode/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+-r:"C:/Users/FERHAT/Documents/GitHub/Multiplayer_VR_NetCode/Multiplayer_VR_NetCode/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+-r:"C:/Users/FERHAT/Documents/GitHub/Multiplayer_VR_NetCode/Multiplayer_VR_NetCode/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+-r:"C:/Users/FERHAT/Documents/GitHub/Multiplayer_VR_NetCode/Multiplayer_VR_NetCode/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.Unsafe.dll"
 -r:"C:/Users/FERHAT/Documents/GitHub/Multiplayer_VR_NetCode/Multiplayer_VR_NetCode/Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/log4netPlastic.dll"
 -r:"C:/Users/FERHAT/Documents/GitHub/Multiplayer_VR_NetCode/Multiplayer_VR_NetCode/Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
 -r:"C:/Users/FERHAT/Documents/GitHub/Multiplayer_VR_NetCode/Multiplayer_VR_NetCode/Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
 -r:"C:/Users/FERHAT/Documents/GitHub/Multiplayer_VR_NetCode/Multiplayer_VR_NetCode/Library/PackageCache/com.unity.collab-proxy@2.0.3/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"C:/Users/FERHAT/Documents/GitHub/Multiplayer_VR_NetCode/Multiplayer_VR_NetCode/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
+-r:"C:/Users/FERHAT/Documents/GitHub/Multiplayer_VR_NetCode/Multiplayer_VR_NetCode/Library/PackageCache/com.unity.nuget.mono-cecil@1.10.1/Mono.Cecil.dll"
+-r:"C:/Users/FERHAT/Documents/GitHub/Multiplayer_VR_NetCode/Multiplayer_VR_NetCode/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.1.0/Runtime/Newtonsoft.Json.dll"
 -r:"C:/Users/FERHAT/Documents/GitHub/Multiplayer_VR_NetCode/Multiplayer_VR_NetCode/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"C:/Users/FERHAT/Documents/GitHub/Multiplayer_VR_NetCode/Multiplayer_VR_NetCode/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
 -r:"C:/Users/FERHAT/Documents/GitHub/Multiplayer_VR_NetCode/Multiplayer_VR_NetCode/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"C:/Users/FERHAT/Documents/GitHub/Multiplayer_VR_NetCode/Multiplayer_VR_NetCode/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"C:/Users/FERHAT/Documents/GitHub/Multiplayer_VR_NetCode/Multiplayer_VR_NetCode/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Burst.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Mathematics.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.CoreUtils.ref.dll"
